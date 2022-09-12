@@ -23,20 +23,15 @@ class HomePage extends StatelessWidget {
             ),
             padding: const EdgeInsets.only(top: 10, left: 10, right: 10),
             child: Column(
-              children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: const [
-                    Text(
-                      'Top 25',
-                      style: TextStyle(fontSize: 18),
-                    ),
-                  ],
+              children: const [
+                Text(
+                  'Top 25',
+                  style: TextStyle(fontSize: 18),
                 ),
-                const SizedBox(
+                SizedBox(
                   height: 10,
                 ),
-                const Divider(
+                Divider(
                   height: 0,
                   thickness: 2,
                   color: Colors.white54,
