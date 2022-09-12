@@ -25,14 +25,10 @@ class HomePage extends StatelessWidget {
             child: Column(
               children: [
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: const [
                     Text(
                       'Top 25',
-                      style: TextStyle(fontSize: 18),
-                    ),
-                    Text(
-                      'Based on Price',
                       style: TextStyle(fontSize: 18),
                     ),
                   ],
